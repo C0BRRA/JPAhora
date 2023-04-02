@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Horário em João Pessoa</title>
+</head>
+<body>
+	<h1>Horário em João Pessoa: <span id="hora"></span></h1>
+	<script>
+		var data = new Date();
+		var hora = data.getHours();
+		var minutos = data.getMinutes();
+		var segundos = data.getSeconds();
+		document.getElementById("hora").innerHTML = hora + ":" + minutos + ":" + segundos;
+	</script>
+</body>
+</html>
